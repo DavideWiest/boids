@@ -268,7 +268,7 @@ def main():
 
         pygame.display.flip()
         clock.tick(60)
-        print(f"FPS: {clock.get_fps():.2f}")
+        # print(f"FPS: {clock.get_fps():.2f}")
 
     pygame.quit()
     sys.exit()
